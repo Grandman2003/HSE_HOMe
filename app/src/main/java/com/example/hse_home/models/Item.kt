@@ -5,7 +5,7 @@ import kotlinx.parcelize.Parcelize
 
 sealed interface Item: Parcelable{
     @Parcelize
-    data class Skills(val skills: Array<Skill>): Item
+    data class Skills(val skills: List<Skill>): Item
     @Parcelize
     data class ProfileItem(val profile: Profile): Item
     @Parcelize
