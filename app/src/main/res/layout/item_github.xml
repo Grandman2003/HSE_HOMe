@@ -51,7 +51,7 @@
                 android:id="@+id/profile_class"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Класс №"
+                android:text="@string/info"
                 android:textSize="16dp"
 
                 app:layout_constraintEnd_toEndOf="@+id/profile_name"
@@ -68,7 +68,7 @@
                 android:paddingTop="12dp"
                 android:paddingEnd="60dp"
                 android:paddingBottom="12dp"
-                android:text="GitHub"
+                android:text="@string/git_but"
                 android:textColor="@color/design_default_color_primary"
                 android:textSize="15dp"
                 app:backgroundTint="@color/white"

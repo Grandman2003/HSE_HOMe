@@ -28,17 +28,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun fillList() {
-        items.add(0,Item.ProfileItem(Profile("Геннадий","Гойхман","абитуриент")))
-        items.add(1,Item.ProjectInfo("Основная идея проекта заключается в реализации приложения для поиска единомышленников." +
-                " Основной аудиторией разрабатываемого решения являются школьники.С помощью данного приложения они смогут находить проектные команды,в которых" +
-                "будет полезен опыт и знание ребят.Для этого им просто будет необходимо указать краткую информацию о себе, навыки, которыми пользователи уже владеют и те умения," +
-                "которые они хотят приобрести. "))
+        items.add(0,Item.ProfileItem(Profile(resources.getString(R.string.first_name),resources.getString(R.string.last_name),resources.getString(R.string.info))))
+        items.add(1,Item.ProjectInfo(resources.getString(R.string.project_info)))
         items.add(2,Item.Header(""))
         val skills:ArrayList<Skill> = ArrayList<Skill>()
-        skills.add(Skill("Android разработка","~1 год"))
-        skills.add(Skill("Cерверная разработка","~1 год"))
-        skills.add(Skill("3D моделирование",">2 лет"))
-        skills.add(Skill("VR разработка","<1.5 года"))
+        skills.add(Skill(resources.getString(R.string.and_dev),resources.getString(R.string.one_year)))
+        skills.add(Skill(resources.getString(R.string.ser_dev),resources.getString(R.string.one_year)))
+        skills.add(Skill(resources.getString(R.string.three_d_mod),resources.getString(R.string.two_years)))
+        skills.add(Skill(resources.getString(R.string.vr_dev),resources.getString(R.string.polt_year)))
         items.add(3,Item.Skills(skills))
     }
 

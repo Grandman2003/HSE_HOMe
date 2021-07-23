@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">О себе</string>
+    <string name="first_name">Геннадий</string>
+    <string name="last_name">Гойхман</string>
+    <string name="info">Абитуриент</string>
+    <string name="project_info">Основная идея проекта заключается в реализации приложения для поиска единомышленников. Основной аудиторией разрабатываемого решения являются школьники. С помощью данного приложения они смогут находить проектные команды, в которых будет полезен опыт и знание ребят. Для этого им просто будет необходимо указать краткую информацию о себе, навыки, которыми пользователи уже владеют и те умения, которые они хотят приобрести.</string>
+    <string name="and_dev">Android разработка</string>
+    <string name="vr_dev">VR разработка</string>
+    <string name="ser_dev">Cерверная разработка</string>
+    <string name="three_d_mod">3D моделирование</string>
+    <string name="pr_idea">Идея проекта</string>
+    <string name="skill_t">Навыки</string>
+    <string name="one_year">~1 год</string>
+    <string name="two_years">>2 лет</string>
+    <string name="polt_year">менее 1.5 года</string>
+</resources>
