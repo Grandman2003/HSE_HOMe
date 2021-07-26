@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             apply()
         }
 
-        TODO("FIX_FILTERS_RESTART")
+
 
         Log.v("PREF_START",getPreferences(Context.MODE_PRIVATE).getStringSet(FilterDialog.FILTER_KEY,null)?.size.toString())
         with(supportActionBar){

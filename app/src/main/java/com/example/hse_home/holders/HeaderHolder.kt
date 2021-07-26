@@ -2,6 +2,9 @@ package com.example.hse_home.holders
 
 import android.app.Activity
 import android.content.Context
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
+import android.graphics.drawable.Drawable
 import android.util.Log
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView

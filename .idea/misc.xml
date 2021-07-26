@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/drawable/activated_filters.xml" value="0.1365" />
+        <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/drawable/bg_corner_dialog.xml" value="0.1365" />
         <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/drawable/button_git.xml" value="0.1355" />
         <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/drawable/close.xml" value="0.1365" />
         <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/drawable/filter_icon.xml" value="0.1" />
         <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/drawable/ic_cross.xml" value="0.1365" />
+        <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/drawable/popup_background.xml" value="0.1365" />
         <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/drawable/vector.xml" value="0.1365" />
         <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/layout/activity_main.xml" value="0.152" />
-        <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/layout/dialog_filters.xml" value="0.2" />
+        <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/layout/dialog_filters.xml" value="0.152" />
         <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/layout/item_github.xml" value="0.176" />
         <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/layout/item_header.xml" value="0.536" />
         <entry key="..\:/Disc_G/Projects/AndroidStudioProjects/HSE_HOMe/app/src/main/res/layout/item_my_skill.xml" value="0.6" />
