@@ -14,6 +14,9 @@
     <string name="one_year">~1 year</string>
     <string name="two_years">>2 years</string>
     <string name="polt_year">less 1.5 year</string>
+    <string name="text_filters">Filters</string>
+    <string name="text_all">All</string>
+    <string name="filter_button">Apply</string>
 
 
 </resources>

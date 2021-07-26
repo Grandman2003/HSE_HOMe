@@ -1,5 +1,6 @@
 package com.example.hse_home.adapters
 
+import android.app.Activity
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -13,7 +14,7 @@ import com.example.hse_home.holders.ProjectInfoHolder
 import com.example.hse_home.holders.SkillsHolder
 import com.example.hse_home.models.Item
 
-class MainElementsAdapter(var items: List<Item>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class MainElementsAdapter(var items: List<Item>, var activity: Activity) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder=
         when(viewType){
@@ -37,7 +38,7 @@ class MainElementsAdapter(var items: List<Item>) : RecyclerView.Adapter<Recycler
             is Item.ProjectInfo->
                 (holder as? ProjectInfoHolder)?.onBind(Item)
             is Item.Header->
-                (holder as? HeaderHolder)?.onBind(Item)
+                (holder as? HeaderHolder)?.onBind(Item,activity)
             is Item.Skills->
                 (holder as? SkillsHolder)?.onBind(Item)
         }

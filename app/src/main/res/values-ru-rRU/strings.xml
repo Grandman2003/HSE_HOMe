@@ -14,4 +14,7 @@
     <string name="one_year">~1 год</string>
     <string name="two_years">>2 лет</string>
     <string name="polt_year">менее 1.5 года</string>
+    <string name="text_filters">Фильтры</string>
+    <string name="text_all">Все</string>
+    <string name="filter_button">Применить</string>
 </resources>

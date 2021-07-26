@@ -1,5 +1,6 @@
 package com.example.hse_home.holders
 
+import android.app.Activity
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
