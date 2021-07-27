@@ -18,7 +18,8 @@ class HeaderHolder(var binding: ItemHeaderBinding) : RecyclerView.ViewHolder(bin
     fun onBind(item: Item.Header,activity: Activity){
         Log.v("PREF_START_DIA",activity.getPreferences(Context.MODE_PRIVATE).getStringSet(FilterDialog.FILTER_KEY,null)?.size.toString())
         if(activity.getPreferences(Context.MODE_PRIVATE).getStringSet(FilterDialog.FILTER_KEY,null)?.size!=null){
-        when(activity.getPreferences(Context.MODE_PRIVATE).getStringSet(FilterDialog.FILTER_KEY,null)?.size!=0) {
+        when(activity.getPreferences(Context.MODE_PRIVATE).getStringSet(FilterDialog.FILTER_KEY,null)?.size!=0
+                && activity.getPreferences(Context.MODE_PRIVATE).getStringSet(FilterDialog.FILTER_KEY,null)?.size!! < 3) {
             true ->{
                 binding.filterButton.setImageResource(R.drawable.activated_filters)
                 Log.v("PREF_START_YES","HAHAH")
